@@ -1,13 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>NFLTOTAL :: NEFASTA</title>
 </head>
-<body>
-    <h1>Aqui se debe visualizar la NEFASTA</h1>
+<header>
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<body class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture1">
+        <div class="card-body">
+            <h5 class="card-title">SENSEY</h5>
+            <p class="card-text">This is a short card.</p>
+        </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture2">
+        <div class="card-body">
+            <h5 class="card-title">MR. NO</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture3">
+        <div class="card-body">
+            <h5 class="card-title">ARRIESGADO</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture4">
+        <div class="card-body">
+            <h5 class="card-title">NERELO30</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture5">
+        <div class="card-body">
+            <h5 class="card-title">MAESTRO</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card h-100">
+        <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture6">
+        <div class="card-body">
+            <h5 class="card-title">MALVADIN4K</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        </div>
+    </div>    
+    </div>
 </body>
 </html>
 
