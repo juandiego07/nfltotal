@@ -41,7 +41,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture1">
         <div class="card-body">
             <h5 class="card-title">SENSEY</h5>
-            <p class="card-text">This is a short card.</p>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>    
         </div>
         </div>
     </div>
@@ -50,7 +72,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture2">
         <div class="card-body">
             <h5 class="card-title">MR. NO</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>            
         </div>
         </div>
     </div>
@@ -59,7 +103,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture3">
         <div class="card-body">
             <h5 class="card-title">ARRIESGADO</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>    
         </div>
         </div>
     </div>
@@ -68,8 +134,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture4">
         <div class="card-body">
             <h5 class="card-title">NERELO30</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>            </div>
         </div>
     </div>
     <div class="col-12 col-md-6 col-xl-4">
@@ -77,8 +164,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture5">
         <div class="card-body">
             <h5 class="card-title">MAESTRO</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>            </div>
         </div>
     </div>
     <div class="col-12 col-md-6 col-xl-4">
@@ -86,7 +194,29 @@
         <img src="https://cdn.pixabay.com/photo/2018/08/31/13/34/nfl-3644686_960_720.png" class="card-img-top" alt="picture6">
         <div class="card-body">
             <h5 class="card-title">MALVADIN4K</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="row">
+                <div class="col-4">
+                    <ul>
+                        <li>Week1: 99</li>
+                        <li>Week2: 99</li>
+                        <li>Week3: 99</li>
+                    </ul>                    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week4: 99</li>
+                        <li>Week5: 99</li>
+                        <li>Week6: 99</li>
+                    </ul>    
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li>Week7: 99</li>
+                        <li>Week8: 99</li>
+                        <li>Week9: 99</li>
+                    </ul>    
+                </div>           
+            </div>    
         </div>
         </div>
     </div>    
