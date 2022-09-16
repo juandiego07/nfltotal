@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     {{-- Estilos CSS --}}
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <link rel="shortcut icon" href={{ asset('img/favicon.png') }} type="image/x-icon">
+    <link rel="shortcut icon" href="https://static.www.nfl.com/league/run3dfyjniqxah4ehxfu" type="image/x-icon">
     <title>@yield('title') | NFL Total</title>
 </head>
 <header>
