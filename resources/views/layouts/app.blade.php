@@ -13,15 +13,18 @@
     <link rel="shortcut icon" href="https://static.www.nfl.com/league/run3dfyjniqxah4ehxfu" type="image/x-icon">
     <title>@yield('title') | NFL Total</title>
 </head>
-<header>
 
-    @yield('navbar')
+<body>
+    <header>
 
-</header>
-<body class="container bg-light">
-
+        @yield('navbar')
+    
+    </header>
+    <main class="container bg-light">
+        
         @yield('main')
-
+    
+    </main>
 </body>
 </html>
 
