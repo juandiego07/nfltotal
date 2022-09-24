@@ -1,4 +1,44 @@
-<x-guest-layout>
+@extends('layouts.app')
+
+@section('title', 'Login')
+
+@section('navbar')
+
+    @include('layouts.menu')
+
+@endsection
+
+@section('main')
+
+    <div class="row vh-100">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="card">
+                <div class="card-header d-flex justify-content-center">
+                    <img src="{{ asset('icons/login.svg') }}" alt="login">
+                </div>
+                <div class="card-body">
+                    <form action="{{ route('login') }}" method="POST">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Usuario</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-dark form-control" type="submit">Ingresar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@endsection
+
+{{-- <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -53,4 +93,4 @@
             </div>
         </form>
     </x-auth-card>
-</x-guest-layout>
+</x-guest-layout> --}}

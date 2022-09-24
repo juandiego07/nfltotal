@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,25 @@
     {{-- Estilos CSS --}}
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="shortcut icon" href="https://static.www.nfl.com/league/run3dfyjniqxah4ehxfu" type="image/x-icon">
+    {{-- Material Iconos --}}
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>@yield('title') | NFL Total</title>
 </head>
 
-<body>
+<body class="bg-light">
     <header>
 
         @yield('navbar')
-    
+
     </header>
-    <main class="container bg-light">
-        
+    <main class="container-fluid container-md">
+
         @yield('main')
-    
+
     </main>
 </body>
+
 </html>
 
 {{-- <!DOCTYPE html>

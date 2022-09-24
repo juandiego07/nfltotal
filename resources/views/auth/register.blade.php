@@ -1,4 +1,88 @@
-<x-guest-layout>
+@extends('layouts.app')
+
+@section('title', 'Login')
+
+@section('navbar')
+
+    @include('layouts.menu')
+
+@endsection
+
+@section('main')
+
+    <div class="row vh-100 mt-5 mt-sm-0">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="card">
+                <div class="card-header d-flex justify-content-center">
+                    <img src="{{ asset('icons/register.svg') }}" alt="login">
+                </div>
+                <div class="card-body">
+                    <form action="{{ route('login') }}" method="POST">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre y apellido</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="favorite_team" class="form-label">Equipo favorito</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Elija un equipo</option>
+                                <option value="1">49ers</option>
+                                <option value="2">Bears</option>
+                                <option value="3">Bengals</option>
+                                <option value="4">Bills</option>
+                                <option value="5">Broncos</option>
+                                <option value="6">Browns</option>
+                                <option value="7">Cardinals</option>
+                                <option value="8">Chargers</option>
+                                <option value="9">Chiefs</option>
+                                <option value="10">Colts</option>
+                                <option value="11">Cowboys</option>
+                                <option value="12">Dolphins</option>
+                                <option value="13">Eagles</option>
+                                <option value="14">Falcons</option>
+                                <option value="15">Giants</option>
+                                <option value="16">Jaguars</option>
+                                <option value="17">Jets</option>
+                                <option value="18">Lions</option>
+                                <option value="19">Packers</option>
+                                <option value="20">Panthers</option>
+                                <option value="21">Patriots</option>
+                                <option value="22">Raiders</option>
+                                <option value="23">Rams</option>
+                                <option value="24">Ravens</option>
+                                <option value="25">Saints</option>
+                                <option value="26">Steelers</option>
+                                <option value="27">Texans</option>
+                                <option value="28">Vikings</option>
+                            </select>
+                            {{-- <input type="text" class="form-control" id="favorite_team"> --}}
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Usuario</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Usuario</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmation" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="confirmation">
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-dark form-control" type="submit">Registrarse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@endsection
+
+{{-- <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
@@ -56,4 +140,4 @@
             </div>
         </form>
     </x-auth-card>
-</x-guest-layout>
+</x-guest-layout> --}}
