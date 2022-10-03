@@ -21,11 +21,11 @@
                         @csrf
                         <div class="mb-3">
                             <label for="email" class="form-label">Usuario</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password">
+                            <input type="password" class="form-control" name="password" id="password">
                         </div>
                         <div class="mb-3">
                             <button class="btn btn-dark form-control" type="submit">Ingresar</button>
