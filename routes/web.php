@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\TeamController;
+use App\Models\Team;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,8 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/teams',[TeamController::class, 'index'])->middleware(['auth'])->name('teams');
 
 require __DIR__.'/auth.php';
