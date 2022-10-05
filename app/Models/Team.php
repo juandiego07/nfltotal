@@ -21,5 +21,10 @@ class Team extends Model
         'draw',
     ];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+    ];
+
 }
 

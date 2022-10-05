@@ -14,7 +14,10 @@ class TeamController extends Controller
      */
     public function index()
     {
-        //
+        $teams = Team::all();
+        $test = $teams->toArray();
+        // dd($test[0]['name']);
+        return view('team.index')->with('teams', $teams->toArray());
     }
 
     /**
